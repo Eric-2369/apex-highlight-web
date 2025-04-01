@@ -66,3 +66,9 @@ coverage/
 # Yarn PnP files (if applicable)
 .yarn/
 .pnp.*
+
+# GitHub workflows
+.github/workflows
+
+# VS Code extension only supports PNG icon
+icon.svg

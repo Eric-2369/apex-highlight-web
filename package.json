@@ -2,7 +2,7 @@
   "name": "apex-highlight-web",
   "displayName": "Apex Syntax Highlighter (Web)",
   "description": "Lightweight, web-compatible syntax highlighting for Salesforce Apex and SOQL. Powered by TextMate grammar from Salesforce's apex-tmLanguage project.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "Eric2369",
   "icon": "icon.png",
   "repository": {
