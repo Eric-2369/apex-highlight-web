@@ -1,0 +1,13 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" fill="none">
+    <title>Apex Syntax Highlighter Icon</title>
+    <!-- Background Cloud Shape  -->
+    <path fill="#00A1E0"
+          d="M99.1,51.3c-1.5-13.3-13.1-23.6-26.9-23.6c-8.7,0-16.4,4.2-21.4,10.7c-3.5-3.1-8-5-12.9-5c-10.1,0-18.3,8.2-18.3,18.3c0,1.9,0.3,3.7,0.8,5.4C11.5,60.1,5,69.4,5,80.2c0,12.4,10.1,22.5,22.5,22.5h67.9c11.9,0,21.6-9.7,21.6-21.6C117,69.1,110,58.1,99.1,51.3z"/>
+    <!-- Foreground Code Brackets '<>' -->
+    <g stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+        <!-- Less-than symbol '<' -->
+        <polyline points="58 53, 40 69, 58 85"/>
+        <!-- Greater-than symbol '>' -->
+        <polyline points="70 53, 88 69, 70 85"/>
+    </g>
+</svg>

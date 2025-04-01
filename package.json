@@ -1,0 +1,78 @@
+{
+  "name": "apex-highlight-web",
+  "displayName": "Apex Syntax Highlighter (Web)",
+  "description": "Lightweight, web-compatible syntax highlighting for Salesforce Apex and SOQL. Powered by TextMate grammar from Salesforce's apex-tmLanguage project.",
+  "version": "1.0.0",
+  "publisher": "Eric2369",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Eric-2369/apex-highlight-web"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "keywords": [
+    "apex",
+    "soql",
+    "salesforce",
+    "syntax",
+    "highlight",
+    "web",
+    "github.dev",
+    "vscode.dev"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "apex",
+        "aliases": [
+          "Apex",
+          "apex"
+        ],
+        "extensions": [
+          ".apex",
+          ".cls",
+          ".trigger"
+        ],
+        "configuration": "./apex-language-configuration.json"
+      },
+      {
+        "id": "soql",
+        "aliases": [
+          "soql",
+          "SOQL",
+          "Salesforce Object Query Language"
+        ],
+        "extensions": [
+          ".soql"
+        ],
+        "configuration": "./soql-language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "apex",
+        "scopeName": "source.apex",
+        "path": "./grammars/apex.tmLanguage"
+      },
+      {
+        "language": "soql",
+        "scopeName": "source.soql",
+        "path": "./grammars/soql.tmLanguage"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "3.3.2",
+    "prettier": "3.5.3"
+  }
+}
